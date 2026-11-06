@@ -1,0 +1,13 @@
+texto_usuario = str(input("insira os numeros "))
+lista_caracteres = list(texto_usuario)
+print(lista_caracteres)
+
+total_elementos = len(lista_caracteres)
+indice_reverso = -1
+lista_invertida = []
+
+for _ in range(total_elementos):
+    lista_invertida.append(lista_caracteres[indice_reverso])
+    indice_reverso -= 1
+
+print(lista_invertida)
